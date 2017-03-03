@@ -1,0 +1,2 @@
+## preprocesamiento
+gcc -E c-main.c -o c-sum.pp.c
