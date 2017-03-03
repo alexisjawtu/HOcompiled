@@ -1,3 +1,5 @@
+# compilador
+
 **Respuesta 1**
 1. El preprocesador trabaja con las directivas
 encabezadas por '#'. Puede ser inclusi'on de 
@@ -45,3 +47,5 @@ descriptor 	| entrada
 **Respuesta 5**
 -- las direcciones de memoria a la izquierda.
 -- printf@@GLIBC_2.2.5 apareci'o tal vez por el problema de linkeo
+
+# simbolos
