@@ -1,2 +1,15 @@
 ## preprocesamiento
 gcc -E c-main.c -o c-sum.pp.c
+
+
+## compilador 1 (escribir en assembler)
+gcc -S c-main.c -o c-main.asm
+gcc -S f-sum.f90 -o f-sum.asm
+
+
+## compilador 2 (hago los objetos de maquina)
+gcc -c c-main.c -o c-main.o
+gcc -c f-sum.f90 -o f-sum.o
+
+## linkeo y hago ejecutable
+gcc c-main.o f-sum.o -o c-main.e

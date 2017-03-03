@@ -10,7 +10,7 @@ int main(int argc, char **argv)
     for (i=0; i < num; i++) {
         data[i] = i - 100 + 1;  /* NOTE: difference in array numbering */  
     }
-
-    printf("sum=%d\n", sum_abs_(data, &num, &z));
+    sum_abs_(data, &num, &z);
+    printf("sum=%d\n", z);
     return 0;
 }
