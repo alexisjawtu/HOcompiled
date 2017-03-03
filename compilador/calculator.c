@@ -10,4 +10,3 @@ int main(int argc, char **argv) {
 int add_numbers(int a, int b){
   return a + b;
 }
-
