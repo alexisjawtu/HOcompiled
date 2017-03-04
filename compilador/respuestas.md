@@ -48,4 +48,3 @@ descriptor 	| entrada
 -- las direcciones de memoria a la izquierda.
 -- printf@@GLIBC_2.2.5 apareci'o tal vez por el problema de linkeo
 
-# simbolos
