@@ -1,0 +1,2 @@
+# preprocesado, assembler, binario y ejecutable en el mismo comando
+gcc c-main.c cpp-sum.cpp -o out.e
