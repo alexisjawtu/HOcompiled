@@ -1,0 +1,18 @@
+## preprocesamiento
+gcc -E c-sum.c -o c-sum.pp.c
+
+## compilador 1 (escribir en assembler)
+gcc -S c-sum.c -o c-sum.asm	
+gcc -S f-main.f90 -o f-main.asm
+
+## compilador 2 (hago los objetos de maquina)
+gcc -c c-sum.c -o c-sum.o
+gcc -c f-main.f90 -o f-main.o
+
+## linkeo y hago ejecutable
+gcc f-main.o c-sum.o -o f-main.e -lgfortran
+
+
+machete
+http://www.neurophys.wisc.edu/comp/docs/not017/#ccall
+http://stackoverflow.com/tags/fortran-iso-c-binding/info
