@@ -5,9 +5,9 @@ En esta carpeta hay 6 subdirectorios:
 - **01-f-from-f**: Llamar una subrutina de FORTRAN desde un programa en FORTRAN
 - **02-c-from-c**: Llamar una subrutina de C desde un programa en C
 - **03-cpp-from-cpp**: Llamar una subrutina de C++ desde un programa en C++
-- **04-c-from-f**: Llamar una subrutina de C desde un programa en FORTRAN
+- **04-c-from-f**: Llamar una subrutina de C desde un programa en FORTRAN **HECHO**
 - **05-f-from-c**: Llamar una subrutina de FORTRAN desde un programa en C **HECHO**
-- **06-cpp-from-c**: Llamar una subrutina de C++ desde un programa en C
+- **06-cpp-from-c**: Llamar una subrutina de C++ desde un programa en C   **HECHO**
 
 
 Los primeros tres directorios son de referencia, y están completos.
